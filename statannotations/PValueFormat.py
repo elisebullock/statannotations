@@ -33,7 +33,7 @@ class PValueFormat(Formatter):
         self._pvalue_format_string = '{:.3e}'
         self._simple_format_string = '{:.2f}'
         self._text_format = "star"
-        self.fontsize = 'medium'
+        self.fontsize = 'x-large'
         self._default_pvalue_thresholds = True
         self._pvalue_thresholds = self._get_pvalue_thresholds(DEFAULT)
         self._correction_format = "{star} ({suffix})"

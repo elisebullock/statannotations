@@ -717,7 +717,7 @@ class Annotator:
                       "optimal.")
 
             fontsize_points = FontProperties(
-                size='medium').get_size_in_points()
+                size='x-large').get_size_in_points()
 
             direction = {'h': -1, 'v': 1}[self.orient]
             x, y = [0, fontsize_points + self.text_offset][::direction]
